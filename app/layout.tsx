@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
   display: "swap",
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://orienttechusa.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://otgrip.com";
 
 export const viewport: Viewport = {
   themeColor: "#f24e1e",
@@ -28,13 +28,13 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Orient Tech | Automotive Spare Parts & Aftermarket Solutions",
+    default: "Orient Tech | Automotive Tyres & Spare Parts",
     template: "%s | Orient Tech USA",
   },
   description:
-    "Orient Tech, SA de CV & Orient Tech USA, Inc. — Premier international supplier of automotive spare parts, commercial fleet components, and integrated supply chain logistics expanding into North America.",
+    "Orient Tech, SA de CV & Orient Tech USA, Inc. — Premier international supplier of automotive tyres, commercial fleet components, and integrated supply chain logistics expanding into North America.",
   keywords: [
-    "automotive spare parts",
+    "automotive tyres",
     "aftermarket auto parts",
     "commercial vehicle components",
     "fleet maintenance parts",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Orient Tech | Automotive Spare Parts & Aftermarket Solutions",
+    title: "Orient Tech | automotive tyres & Aftermarket Solutions",
     description:
       "Providing high-quality aftermarket spare parts, commercial fleet components, and integrated supply chain solutions across North America and global markets.",
     url: siteUrl,
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Orient Tech | Automotive Spare Parts & Aftermarket Solutions",
+    title: "Orient Tech | automotive tyres & Aftermarket Solutions",
     description:
       "Providing high-quality aftermarket spare parts, commercial fleet components, and integrated supply chain solutions across North America.",
     creator: "@OrientTechUSA",

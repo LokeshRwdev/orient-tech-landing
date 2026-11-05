@@ -43,7 +43,7 @@ export default function About() {
                 ORIENT TECH USA, INC. IS EXPANDING ITS PRESENCE IN THE AMERICAN
                 AUTOMOTIVE MARKET, BRINGING TOGETHER INTERNATIONAL BUSINESS
                 EXPERIENCE AND AN UNRELENTING COMMITMENT TO DEPENDABLE
-                AUTOMOTIVE SPARE PARTS AND WAREHOUSE SOLUTIONS.
+                automotive tyres AND WAREHOUSE SOLUTIONS.
               </p>
             </div>
 
@@ -175,7 +175,7 @@ export default function About() {
                     Industry Focus
                   </span>
                   <span className="text-zinc-200 font-semibold mt-0.5 sm:mt-0">
-                    Automotive Spare Parts &amp; Warehousing
+                    automotive tyres &amp; Warehousing
                   </span>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between py-1.5 border-b border-white/[0.04]">

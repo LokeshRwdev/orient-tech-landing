@@ -1,7 +1,7 @@
 const features = [
   {
     number: "01",
-    title: "AUTOMOTIVE SPARE PARTS",
+    title: "automotive tyres",
     description:
       "Comprehensive catalog coverage across passenger, commercial, and heavy-duty transport vehicles. Engine components, transmission assemblies, performance braking systems, steering & suspension kits, and electronic sensors built to surpass rigorous OEM tolerances.",
     linkText: "EXPLORE CATALOG",
@@ -47,8 +47,9 @@ export default function Capabilities() {
             <span className="text-[#f24e1e]">BUILT FOR SCALE.</span>
           </h2>
           <p className="mt-3 text-sm sm:text-base text-zinc-400 font-normal leading-relaxed">
-            From precision inventory management to cross-border logistics, discover how our operations 
-            are built to deliver speed, reliability, and scale to your business.
+            From precision inventory management to cross-border logistics,
+            discover how our operations are built to deliver speed, reliability,
+            and scale to your business.
           </p>
         </div>
 

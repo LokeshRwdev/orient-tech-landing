@@ -17,7 +17,7 @@ export default function StructuredData() {
     logo: `${siteUrl}/logo.png`,
     image: `${siteUrl}/opengraph-image`,
     description:
-      "Orient Tech is a vertically integrated automotive spare parts and aftermarket solutions company, providing OEM replacement parts, commercial vehicle components, and supply chain logistics across North America and global markets.",
+      "Orient Tech is a vertically integrated automotive tyres and aftermarket solutions company, providing OEM replacement parts, commercial vehicle components, and supply chain logistics across North America and global markets.",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Alliance DFW Logistics Corridor",
@@ -60,7 +60,7 @@ export default function StructuredData() {
       "https://twitter.com/OrientTechUSA",
     ],
     knowsAbout: [
-      "Automotive Spare Parts",
+      "automotive tyres",
       "Commercial Fleet Maintenance",
       "Aftermarket Components",
       "Automotive Supply Chain Logistics",
@@ -74,7 +74,7 @@ export default function StructuredData() {
     "@id": `${siteUrl}/#website`,
     url: siteUrl,
     name: "Orient Tech USA",
-    description: "Automotive Spare Parts & Aftermarket Solutions",
+    description: "automotive tyres & Aftermarket Solutions",
     publisher: {
       "@id": `${siteUrl}/#organization`,
     },
@@ -88,7 +88,7 @@ export default function StructuredData() {
       {
         "@type": "Service",
         position: 1,
-        name: "Automotive Spare Parts Distribution",
+        name: "automotive tyres Distribution",
         description:
           "Full catalog coverage across passenger, commercial, and heavy-duty vehicles including engines, braking, transmissions, and electrical components.",
         provider: {

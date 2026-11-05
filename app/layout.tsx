@@ -61,9 +61,9 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Orient Tech | automotive tyres & Aftermarket Solutions",
+    title: "Orient Tech | Automotive Tyres & Spare Parts",
     description:
-      "Providing high-quality aftermarket spare parts, commercial fleet components, and integrated supply chain solutions across North America and global markets.",
+      "Providing high-quality spare parts, commercial fleet components, and integrated supply chain solutions across North America and global markets.",
     url: siteUrl,
     siteName: "Orient Tech USA",
     locale: "en_US",

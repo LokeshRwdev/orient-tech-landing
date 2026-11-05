@@ -56,7 +56,7 @@ export default function Footer() {
                 </span>
               </a>
               <a
-                href="mailto:contact@orienttech.com"
+                href="mailto:infor@orienttech.us"
                 className="w-8 h-8 rounded bg-white/[0.04] border border-white/10 flex items-center justify-center text-zinc-400 hover:text-white hover:border-[#f24e1e] transition-colors"
                 aria-label="Email Orient Tech"
               >

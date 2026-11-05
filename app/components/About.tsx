@@ -12,10 +12,10 @@ export default function About() {
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 sm:mb-14 gap-6">
           <div>
-            <div className="inline-flex items-center gap-2 text-xs font-bold tracking-widest text-zinc-400 uppercase mb-3">
+            {/* <div className="inline-flex items-center gap-2 text-xs font-bold tracking-widest text-zinc-400 uppercase mb-3">
               <span className="w-1.5 h-1.5 rounded-full bg-[#f24e1e]" />
               About us // Protocol 01
-            </div>
+            </div> */}
             <h2
               id="about-heading"
               className="text-3xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight uppercase leading-[1.05]"
@@ -57,8 +57,8 @@ export default function About() {
               </p>
               <p>
                 Whether streamlining component availability or engineering
-                robust logistics pipelines for automotive suppliers, Orient
-                Tech USA focuses on high-traction dependability and execution.
+                robust logistics pipelines for automotive suppliers, Orient Tech
+                USA focuses on high-traction dependability and execution.
               </p>
             </div>
 

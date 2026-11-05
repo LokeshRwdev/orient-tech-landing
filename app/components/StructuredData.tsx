@@ -1,12 +1,17 @@
 export default function StructuredData() {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://orienttechusa.com";
+  const siteUrl =
+    process.env.NEXT_PUBLIC_SITE_URL || "https://orienttechusa.com";
 
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": ["Organization", "AutoPartsStore"],
     "@id": `${siteUrl}/#organization`,
     name: "Orient Tech USA, Inc.",
-    alternateName: ["Orient Tech, SA de CV", "Orient Tech Group", "Orient Tech"],
+    alternateName: [
+      "Orient Tech, SA de CV",
+      "Orient Tech Group",
+      "Orient Tech",
+    ],
     legalName: "Orient Tech, SA de CV",
     url: siteUrl,
     logo: `${siteUrl}/logo.png`,
@@ -22,7 +27,7 @@ export default function StructuredData() {
       addressCountry: "US",
     },
     telephone: "+1-800-555-0198",
-    email: "contact@orienttech.com",
+    email: "infor@orienttech.us",
     areaServed: [
       {
         "@type": "Country",
@@ -130,4 +135,3 @@ export default function StructuredData() {
     </>
   );
 }
-

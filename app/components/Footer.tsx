@@ -8,15 +8,17 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-12 pb-14 border-b border-white/[0.08]">
           {/* Brand Info */}
           <div className="lg:col-span-5 space-y-4">
-            <div className="flex items-center gap-3">
-              <img
-                src="https://bitiu6ibmezlvci7.public.blob.vercel-storage.com/oritech%20logo.jpeg"
-                alt="Orient Tech Logo"
-                className="h-10 w-10 sm:h-12 sm:w-12 rounded-full object-contain bg-white p-0.5 shadow-md shrink-0"
-                width={48}
-                height={68}
-              />
-              <span className="text-white font-black text-lg tracking-tight uppercase">
+            <div className="flex items-center gap-2.5 sm:gap-3">
+              <div className="flex h-7 w-7 sm:h-8 sm:w-8 shrink-0 items-center justify-center rounded-full bg-white p-0.5 shadow-sm">
+                <img
+                  src="/oritech-logo.png"
+                  alt="Orient Tech Logo"
+                  className="h-full w-full object-contain rounded-full"
+                  width={32}
+                  height={32}
+                />
+              </div>
+              <span className="text-white font-black text-base sm:text-lg tracking-tight uppercase leading-none">
                 ORIENT TECH USA, INC.
               </span>
             </div>

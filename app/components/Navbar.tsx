@@ -16,18 +16,20 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-3 sm:px-8 lg:px-10">
         <a
           href="#"
-          className="flex shrink-0 items-center gap-3"
+          className="flex shrink-0 items-center gap-2.5"
           aria-label="Orient Tech USA home"
         >
-          <img
-            src="https://bitiu6ibmezlvci7.public.blob.vercel-storage.com/oritech%20logo.jpeg"
-            alt="Orient Tech USA, Inc. Logo"
-            className="h-8 w-auto object-contain"
-            width={160}
-            height={128}
-          />
-          <span className="block">
-            <b className="block text-xs font-black leading-none sm:text-sm">
+          <div className="flex h-[34px] w-[34px] sm:h-[38px] sm:w-[38px] shrink-0 items-center justify-center rounded bg-white p-0.5 shadow-sm">
+            <img
+              src="/oritech-logo.png"
+              alt="Orient Tech USA, Inc. Logo"
+              className="h-full w-full object-contain"
+              width={38}
+              height={38}
+            />
+          </div>
+          <span className="flex flex-col justify-center">
+            <b className="block text-[11px] font-black uppercase tracking-tight text-white leading-[1.05] sm:text-xs sm:leading-[1.1]">
               ORIENT
               <br />
               TECH USA,

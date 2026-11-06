@@ -20,11 +20,11 @@ export default function Navbar() {
           aria-label="Orient Tech USA home"
         >
           <img
-            src="https://bitiu6ibmezlvci7.public.blob.vercel-storage.com/Screenshot%202026-11-05%20184223.png"
+            src="https://bitiu6ibmezlvci7.public.blob.vercel-storage.com/oritech%20logo.jpeg"
             alt="Orient Tech USA, Inc. Logo"
             className="h-8 w-auto object-contain"
             width={160}
-            height={32}
+            height={128}
           />
           <span className="block">
             <b className="block text-xs font-black leading-none sm:text-sm">

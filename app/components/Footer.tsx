@@ -9,9 +9,13 @@ export default function Footer() {
           {/* Brand Info */}
           <div className="lg:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
-              {/* <div className="w-9 h-9 rounded bg-[#f24e1e] flex items-center justify-center font-black text-white text-base">
-                OT
-              </div> */}
+              <img
+                src="https://bitiu6ibmezlvci7.public.blob.vercel-storage.com/oritech%20logo.jpeg"
+                alt="Orient Tech Logo"
+                className="h-10 w-10 sm:h-12 sm:w-12 rounded-full object-contain bg-white p-0.5 shadow-md shrink-0"
+                width={48}
+                height={68}
+              />
               <span className="text-white font-black text-lg tracking-tight uppercase">
                 ORIENT TECH USA, INC.
               </span>
